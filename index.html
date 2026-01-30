@@ -388,6 +388,14 @@
             transform: translateY(30px);
         }
 
+        .project-icon {
+            font-size: 32px;
+            color: var(--primary);
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+
+
         .project-card.visible {
             opacity: 1;
             transform: translateY(0);
@@ -811,39 +819,83 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-content">
+                        <i class="fas fa-spell-check project-icon"></i>
                         <h3 class="project-title">Dictionary & Spell Checker</h3>
                         <span class="project-date">04/2025</span>
-                        <p>Implemented a spell-checking system using Binary Search Trees (BST) and AVL Trees in C. Designed logic to suggest the closest, predecessor, and successor words for misspellings. Achieved O(log n) efficiency for search and insert operations.</p>
+                        <p>
+                            Built a spell-checking system that efficiently detects and suggests corrections for misspelled words.
+                            <br>
+                            <br>
+                            What I did
+                            <br>
+                            <li>Implemented dictionary search using BST and AVL trees</li>
+                            <li>Generated closest word suggestions using predecessor and successor logic</li>
+                            <li>Optimized search and insertion to logarithmic time</li>
+                            <br>
+                            Tech: C, BST, AVL Tree
+                        </p>
                         <a href="https://github.com/YaseenRamzyy/BST-AVL-Dictionary" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
+                        <i class="fas fa-hotel project-icon"></i>
                         <h3 class="project-title">Hotel Management System</h3>
                         <span class="project-date">12/2024</span>
-                        <p>Built a Hotel Reservation System in C, including booking, customer management, and billing features. Developed a console-based interface for smooth user experience. Ensured reliability through debugging and testing.</p>
+                        <p>
+                            Developed a console-based system to manage hotel reservations, customers, and billing.
+                            <br>
+                            <br>
+                            What I did
+                            <br>
+                            <li>Designed booking, customer management, and billing workflows</li>
+                            <li>Built a structured C-based system with modular components</li>
+                            <li>Tested and debugged to ensure reliability and correct data handling</li>
+                            <br>
+                            Tech: C, File Handling, Modular Design
+                        </p>
                         <a href="https://github.com/YaseenRamzyy/Hotel-Management-System" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Expression Evaluation System</h3>
+                        <i class="fas fa-calculator project-icon"></i>
+                        <h3 class="project-title">  Expression Evaluation System</h3>
                         <span class="project-date">3/2025</span>
-                        <p>A C program that implements infix to postfix conversion and mathematical expression evaluation using stack data structures with linked list implementation.</p>
+                        <p>
+                            Implemented a system that converts and evaluates mathematical expressions efficiently.
+                            <br>
+                            <br>
+                            What I did
+                            <br>
+                            <li>Converted infix expressions to postfix notation</li>
+                            <li>Evaluated expressions using stack-based logic</li>
+                            <li>Implemented stacks using linked lists for dynamic memory handling</li>
+                            <li>Applied Clean Architecture (MVVM + Repository) with testing</li>
+                            <br>
+                            Tech: C, Stacks, Linked Lists
+                        </p>
                         <a href="https://github.com/YaseenRamzyy/Expression-Evaluation-System" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">DragoBlaze – Android Movie Streaming App</h3>
+                        <i class="fas fa-mobile-alt project-icon"></i>
+                        <h3 class="project-title">  DragoBlaze – Android Movie Streaming App</h3>
                         <span class="project-date">10/2025 – 11/2025</span>
                         <p>
-                            Android movie streaming application built using Kotlin and Jetpack Compose with a
-                            Chinese-inspired UI/UX. Implemented Firebase Authentication and Room Database for
-                            Favorites and Watch Later features. Integrated real-time movie APIs using Retrofit
-                            and Coroutines with proper error handling. Followed Clean Architecture
-                            (MVVM + Repository) using StateFlow and unit testing.
+                            Built an Android movie streaming app with authentication, favorites, and real-time data.
+                            <br>
+                            <br>
+                            What I did
+                            <br>
+                            <li>Developed UI using Jetpack Compose with custom design</li>
+                            <li>Integrated Firebase Authentication and Room database</li>
+                            <li>Consumed movie APIs using Retrofit and Coroutines</li>
+                            <li>Applied Clean Architecture (MVVM + Repository) with testing</li>
+                            <br>
+                            Tech: Kotlin, Jetpack Compose, Firebase, Retrofit, Room, SQL
                         </p>
                         <a href="https://github.com/YaseenRamzyy/NHA-192" class="project-link">
                             View on GitHub <i class="fas fa-arrow-right"></i>
@@ -853,15 +905,21 @@
 
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Sudoku Game</h3>
+                        <i class="fas fa-puzzle-piece project-icon"></i>
+                        <h3 class="project-title">  Sudoku Game</h3>
                         <span class="project-date">12/2024 – 01/2025</span>
                         <p>
-                            GUI-based Sudoku game featuring validation states (Valid, Invalid, Incomplete),
-                            difficulty levels (Easy, Medium, Hard), and persistent storage for unfinished games.
-                            Implemented a permutation-based Sudoku solver with strict memory control using
-                            Iterator and Flyweight design patterns. Designed using MVC architecture with
-                            Adapter and Facade patterns, and added Undo functionality via action logging
-                            and state rollback.
+                            Developed a GUI-based Sudoku game with validation, difficulty levels, and undo support.
+                            <br>
+                            <br>
+                            What I did
+                            <br>
+                            <li>Implemented game state validation and difficulty modes</li>
+                            <li>Built a Sudoku solver using permutation-based logic</li>
+                            <li>Added undo functionality with state rollback</li>
+                            <li>Applied MVC architecture and memory-efficient design</li>
+                            <br>
+                            Tech: Java, GUI, MVC, Design Patterns
                         </p>
                         <a href="https://github.com/YaseenRamzy" class="project-link">
                             View on GitHub <i class="fas fa-arrow-right"></i>
